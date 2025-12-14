@@ -1,32 +1,58 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!-- Sync Impact Report:
+Version change: None -> 1.0.0
+Modified principles:
+  - PRINCIPLE_1_NAME: Modularity
+  - PRINCIPLE_2_NAME: Test-Driven Development (TDD)
+  - PRINCIPLE_3_NAME: Clear Interfaces
+  - PRINCIPLE_4_NAME: Code Readability
+  - PRINCIPLE_5_NAME: Continuous Integration/Continuous Deployment (CI/CD)
+Added sections: None
+Removed sections: None
+Templates requiring updates:
+  - .specify/templates/plan-template.md: ⚠ pending
+  - .specify/templates/spec-template.md: ⚠ pending
+  - .specify/templates/tasks-template.md: ⚠ pending
+  - .gemini/commands/sp.adr.toml: ⚠ pending
+  - .gemini/commands/sp.analyze.toml: ⚠ pending
+  - .gemini/commands/sp.checklist.toml: ⚠ pending
+  - .gemini/commands/sp.clarify.toml: ⚠ pending
+  - .gemini/commands/sp.constitution.toml: ⚠ pending
+  - .gemini/commands/sp.git.commit_pr.toml: ⚠ pending
+  - .gemini/commands/sp.implement.toml: ⚠ pending
+  - .gemini/commands/sp.phr.toml: ⚠ pending
+  - .gemini/commands/sp.plan.toml: ⚠ pending
+  - .gemini/commands/sp.specify.toml: ⚠ pending
+  - .gemini/commands/sp.tasks.toml: ⚠ pending
+  - README.md: ⚠ pending
+Follow-up TODOs:
+  - TODO(SECTION_2_NAME): Define additional constraints for the project.
+  - TODO(SECTION_2_CONTENT): Define content for additional constraints.
+  - TODO(SECTION_3_NAME): Define development workflow or review process.
+  - TODO(SECTION_3_CONTENT): Define content for development workflow or review process.
+-->
+# Calculator Project Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Modularity
+**Description:** Components should be self-contained and independently testable.
+**Rationale:** Promotes reusability and maintainability.
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+### II. Test-Driven Development (TDD)
+**Description:** Write tests before writing production code to ensure functionality and guide design.
+**Rationale:** Improves code quality, reduces bugs, and clarifies requirements.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### III. Clear Interfaces
+**Description:** Define explicit and well-documented interfaces for all modules and components.
+**Rationale:** Facilitates integration and reduces coupling.
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+### IV. Code Readability
+**Description:** Write clean, concise, and understandable code with consistent formatting and meaningful names.
+**Rationale:** Enhances maintainability and collaboration.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### V. Continuous Integration/Continuous Deployment (CI/CD)
+**Description:** Automate build, test, and deployment processes to ensure rapid and reliable delivery.
+**Rationale:** Accelerates development cycles and reduces deployment risks.
 
 ### [PRINCIPLE_6_NAME]
 
@@ -46,10 +72,6 @@
 <!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
+This constitution defines the foundational principles. All decisions and practices must align with these principles. Amendments require documented proposals and team consensus.
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
-
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+**Version**: 1.0.0 | **Ratified**: 2025-12-14 | **Last Amended**: 2025-12-14
