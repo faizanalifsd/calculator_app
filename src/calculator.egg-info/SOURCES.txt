@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/calculator/cli.py
+src/calculator/core.py
+src/calculator.egg-info/PKG-INFO
+src/calculator.egg-info/SOURCES.txt
+src/calculator.egg-info/dependency_links.txt
+src/calculator.egg-info/entry_points.txt
+src/calculator.egg-info/top_level.txt
