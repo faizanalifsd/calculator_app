@@ -1,3 +1,10 @@
 # pyproject.toml
+[project]
+name = "calculator"
+version = "0.1.0"
+
+[project.scripts]
+calculate = "calculator.cli:main"
+
 [tool.pytest]
 pythonpath = ["src"]
